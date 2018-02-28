@@ -5,6 +5,7 @@ int main(){
     int x = 0;
     size_t N = 10;
 
+    std::cout<<"Enter x: "<<std::endl;
     std::cin>>x;
 
     int *sorted_array = new int[N];
